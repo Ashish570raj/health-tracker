@@ -1,6 +1,4 @@
-Sure! Here's the improved version of your README with the **URL removed** and some **useful points added** under the "Project Info" section:
 
----
 
 # Welcome to your Health Tracker Project
 
@@ -55,5 +53,3 @@ npm run dev
 * **shadcn/ui**
 
 ---
-
-Let me know if you'd like to add features like routing, database setup (e.g., Supabase), or deploy instructions!
