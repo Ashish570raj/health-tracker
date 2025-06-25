@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+Sure! Here's the improved version of your README with the **URL removed** and some **useful points added** under the "Project Info" section:
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/1b45274f-fb5a-42fb-9638-b3bb11c7f7b2
+# Welcome to your Health Tracker Project
+
+## Project Info
+
+* This is a **health tracking web application** designed to help users monitor their daily habits.
+* Users can log **exercise minutes**, **calories consumed**, and **water intake**.
+* The project is built for learning, practice, and potential deployment.
+* Codebase is modular and optimized for scalability and maintainability.
+* Supports future integration with authentication services and health APIs.
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
+There are several ways to edit and run this project locally:
 
-**Use Lovable**
+### 🧑‍💻 Using Your Preferred IDE
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1b45274f-fb5a-42fb-9638-b3bb11c7f7b2) and start prompting.
+Make sure you have **Node.js** and **npm** installed. [Install Node.js using nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Step 1: Clone the repository using your Git URL
+git clone https://github.com/Ashish570raj/health-tracker.git
 
-**Use your preferred IDE**
+# Step 2: Navigate to the project directory
+cd health-tracker
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Step 3: Install the necessary dependencies
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server with auto-reloading
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 💡 Edit Directly in GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* Navigate to the desired file(s) in your repository.
+* Click the **Edit (✏️)** icon at the top right of the file view.
+* Make your changes, then **commit** them with a message.
 
-**Use GitHub Codespaces**
+### ⚙️ Use GitHub Codespaces (Optional)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Click the **Code** button on the main repo page.
+* Go to the **Codespaces** tab.
+* Click **New codespace** to start editing in the browser.
 
-## What technologies are used for this project?
+## Technologies Used
 
-This project is built with:
+* **Vite**
+* **TypeScript**
+* **React**
+* **Tailwind CSS**
+* **shadcn/ui**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1b45274f-fb5a-42fb-9638-b3bb11c7f7b2) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Let me know if you'd like to add features like routing, database setup (e.g., Supabase), or deploy instructions!
